@@ -14,7 +14,7 @@
           return hashParams;
         }
 
-        window.params = getHashParams();
+        var params = getHashParams();
 
         var access_token = params.access_token,
             refresh_token = params.refresh_token,
